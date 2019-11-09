@@ -11,6 +11,7 @@ output: html_document
 
 ## **Domain of Interest**  
 
+       WORLDWIDE DEATHS
 
 **Name of Domain:**
 
@@ -53,16 +54,22 @@ output: html_document
 ## **Finding Data**
 
 
-  **URL from the data:**
+###  **URL from the data:**
+ 
+ 
+  Suicide Rates Overview 1985 to 2016 :<https://www.kaggle.com/tavoosi/suicide-data-full-interactive-dashboard/data>
+  
+###  **Description of how was the data collected:**
   
   
-  **Description of how was the data collected:**
+  **Suicide Rates Overview 1985 to 2016**:study of mortality by suicides that were carried out between 1985 and 2016
+  
+###  **Observations (rows) and Features (columns) of the data:**
   
   
-  **Observations (rows) and Features (columns) of the data:**
+  **Suicide Rates Overview:** *27820 Observations and 12 Variables*
   
-  
-  **Questions from above that can be answered using this dataset**
+###  **Questions from above that can be answered using this dataset**
   
   
   
