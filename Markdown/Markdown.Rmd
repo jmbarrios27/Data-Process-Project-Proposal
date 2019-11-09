@@ -1,0 +1,70 @@
+---
+title: "Data Process Project Proposal"
+author: "Group 2"
+date: "11/09/2019"
+output: html_document
+---
+
+**GitHub Repository URL:**
+<https://github.com/josemax277/Data-Process-Project-Proposal.git>
+
+
+## **Domain of Interest**  
+
+
+**Name of Domain:**
+
+
+**¿Why are we interested?**
+
+
+**Three examples of projects related to this domain**
+
+
+  **link 1:**
+  
+  
+  **Description of the first project:**
+  
+  
+   **link 2:**
+   
+   
+  **Description of the second project:**
+  
+  
+   **link 3:**
+   
+   
+  **Description of the third project:**
+  
+  
+  **Three data-driven questions that we are hoping to answer about this domain**
+  
+  **Question 1**
+  
+  
+  **Question 2**
+  
+  
+  **Question 3**
+  
+  
+## **Finding Data**
+
+
+  **URL from the data:**
+  
+  
+  **Description of how was the data collected:**
+  
+  
+  **Observations (rows) and Features (columns) of the data:**
+  
+  
+  **Questions from above that can be answered using this dataset**
+  
+  
+  
+  
+  
