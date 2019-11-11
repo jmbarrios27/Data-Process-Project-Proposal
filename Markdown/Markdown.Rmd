@@ -1,7 +1,6 @@
 ---
 title: "Data Process Project Proposal"
-author: "Group 2"
-date: "11/09/2019"
+author: "Group 2: Jose Barrios, Carlos Cameo, Daniel Sedano, Katherine Vivanco, Yuquin Zhang"
 output: html_document
 ---
 
@@ -11,67 +10,144 @@ output: html_document
 
 ## **Domain of Interest**  
 
-       WORLDWIDE DEATHS
-
 **Name of Domain:**
 
+We are interested on **Death** and everything that leads to it or allow us to delay it.
 
 **¿Why are we interested?**
 
+It's a well-known fact that survival instinct is shared between among every human, because everyone wants to avoid and lessen the risk of suffer pain and dead. Thus, the goal of this project is to analyse how death count is influenced by cause and by population group, aiming to discover how to lessen the risk of dying.
 
 **Three examples of projects related to this domain**
 
 
   **link 1:**
-  
-  
+  <https://ourworldindata.org/causes-of-death>
+
   **Description of the first project:**
-  
-  
+
+  This is a very exhaustive study on the causes of deaths. First, a comparison between causes is shown as a bar chart, with the causes ordered from more to less deaths, then the evolution through years can be viewed through different snapshots. Then a second graph tries to explain which factors are driven the changes through years. The third group of graphs show the causes ordered from more to less deaths, along years and for different age groups.The fourth group of graphs shows the number of deaths by risk factor, along the years and among different ages groups. The fifth group of graphs shows the comparison of deaths by cause through the years in a single graph (not through snapshots). The sixth group of graphs is the widest one: a independent study is shown for each death cause. The seventh group takes into account the income level of the countries. The last group of graphs compares the relative share of each death cause with the relative share of relevance of that cause in the media such as The Guardian and New York times and also compares it with the relevance of that cause among google searches. Then the study concludes showing which causes are overrepresented in the media and which ones are underrepresented, aiming to question if media should reflect what we really die from.
+
    **link 2:**
-   
-   
+   <https://vizhub.healthdata.org/mortality/>
+
   **Description of the second project:**
-  
-  
+
+Mortality visualization, is a data visualization tool that allow us to visualize the probability of dying for different sex and age groups and countries of origin. It can also show the probability of dying in a specific country.
+
    **link 3:**
-   
-   
+   <https://vizhub.healthdata.org/gbd-compare/>
+
   **Description of the third project:**
-  
-  
+
+GBD Compare allows users to analyze the world’s health levels and trends by using maps, plots, treemaps, arrow diagrams, and a dozen other charts to compare patterns and trends in causes and risks over time, to explore the health profile within a country by age and sex; to compare countries with one another; or to explore regional or global trends. Users can drill from a global view into country views including subnational details for some countries; can examine how disease patterns have changed over time; and can explore which causes of death and disability are increasing and which are decreasing.
+
+
   **Three data-driven questions that we are hoping to answer about this domain**
-  
-  **Question 1**
-  
-  
-  **Question 2**
-  
-  
-  **Question 3**
-  
-  
+
+**Question 1**
+
+**a.**Which are the deadliest causes of death?
+
+
+**Question 2**
+
+**a.**Are there any difference between ages groups and sexes?
+
+**b.**Are there any difference between regions and countries?
+
+**c.**Which are the most death-threatened group by region/country?
+
+**d.**How is evolving the death-count by cause and population group along the years?
+
+
+**Question 3**
+
+**a.**Which risks factors are causing a higher number of deaths?
+
+**b.**Which risk factors are relevant for each population group?
+
+**c.**Which risks factors are the most important to avoid in order to lessen the probability of dying to the minimum, by death cause and by population group?
+
+
+
 ## **Finding Data**
 
 
 ###  **URL from the data:**
- 
- 
-  Suicide Rates Overview 1985 to 2016 :<https://www.kaggle.com/tavoosi/suicide-data-full-interactive-dashboard/data>
-  
+
+
+  **Suicide Rates Overview 1985 to 2016**    
+  :<https://www.kaggle.com/tavoosi/suicide-data-full-interactive-dashboard/data>
+
+  **GBD Results Tool**
+  :<http://ghdx.healthdata.org/gbd-results-tool>
+
+  **Deaths according to cause of death**
+  :<https://www.ine.es/dynt3/inebase/en/index.htm?padre=1171>
+
 ###  **Description of how was the data collected:**
-  
-  
-  **Suicide Rates Overview 1985 to 2016**:study of mortality by suicides that were carried out between 1985 and 2016
-  
+
+
+  **Suicide Rates Overview 1985 to 2016**:
+This dataset was gathered using data from the United Nations Development Program, World Health Organization and Suicide Prevention Department. It was built to find signals correlated to increased suicide rates among different cohorts globally, across the socio-economic spectrum.
+
+  **GBD Results Tool**:
+The data of this datasource was collected from a very large quantity of sources. There is an API to access this metadata, as the number of sources is higher than 10000. The link of the source is : http://ghdx.healthdata.org/gbd-2017/data-input-sources
+
+  **Deaths according to cause of death**:
+The data has been collected from the Medical Death Certificates of the deaths registered in the Civil Registry. Legally there is an obligation to register the death of any live birth, which guarantees the possibility of access to all deaths. The participation of the Mortality Registries of the autonomous communities in the codification of the cause of death allows closer access to the source of information that can provide data that complete the quality of death certification, such as medical records or judicial proceedings. 
+
 ###  **Observations (rows) and Features (columns) of the data:**
-  
-  
+
   **Suicide Rates Overview:** *27820 Observations and 12 Variables*
-  
+
+  **GBD Results Tool:** *The data is accessed through an API, so number of rows and columns may vary depending on the query.*
+
+  **Deaths according to the cause of death:** *The data is accessed through an API, so number of rows and columns may vary depending on the query.*
+
+
+
 ###  **Questions from above that can be answered using this dataset**
-  
-  
-  
-  
-  
+
+  **Suicides Rates Overview**:
+
+**a.**Which are the deadliest causes of death?
+
+**b.**Are there any difference between ages groups and sexes?
+
+**c.**Are there any difference between regions and countries?
+
+**d.**Which are the most death-threatened group by region/country?
+
+**e.**How is evolving the death-count by cause and population group along the years?
+
+**GBD Results Tool**:
+
+**a.**Which are the deadliest causes of death?
+
+**b.**Are there any difference between ages groups and sexes?
+
+**c.**Are there any difference between regions and countries?
+
+**d.**Which are the most death-threatened group by region/country?
+
+**e.**How is evolving the death-count by cause and population group along the years?
+
+**f.**Which risks factors are causing a higher number of deaths?
+
+**g.**Which risk factors are relevant for each population group?
+
+**h.**Which risks factors are the most important to avoid in order to lessen the probability of dying to the minimum, by death cause and by population group?
+
+**Deaths according to cause of death**:
+
+**a.**Which are the deadliest causes of death in Spain?
+
+**b.**Are there any difference between ages groups and sexes in Spain?
+
+**c.**Are there any difference between regions and countries in Spain?
+
+**d.**Which are the most death-threatened group by region/country in Spain?
+
+**e.**How is evolving the death-count by cause and population group along the years in Spain?
